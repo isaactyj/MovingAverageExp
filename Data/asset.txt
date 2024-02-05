@@ -1,0 +1,31 @@
+etfs = ['SPY', 'GLD', 'DIA', 'QQQ', 'UVXY', 'LABU', 'EEM', 'HYG', 'FXI', 'IWM', 'EWZ', 'GDX', 'ARKK', 'EFA', 'SLV', 'LQD', 'TLT', 'IEMG', 'GOVT', 'KOLD']
+
+gics = ['XLE', 'XLF', 'XLK', 'XLV', 'XLU', 'XLY', 'XLP', 'XLI', 'XLC', 'XLB', 'XLRE']
+
+cryptos = ['BTC-USD', 'ETH-USD', 'USDT-USD', 'USDC-USD', 'BNB-USD', 'BUSD-USD', 'XRP-USD', 'ADA-USD', 'SOL-USD', 'DOT-USD', 'DOGE-USD', 'MATIC-USD', 'SHIB-USD', 'DAI-USD', 'AVAX-USD', 'TRX-USD', 'WBTC-USD', 'ETC-USD', 'UNI-USD', 'LEO-USD']
+
+energy = ['XOM', 'CVX', 'SHEL', 'COP', 'TTE', 'EQNR', 'BP', 'PBR-A', 'PBR', 'ENB', 'EOG', 'OXY', 'CNQ', 'EPD', 'PXD', 'SLB', 'MPC', 'TRP', 'DVN', 'VLO']
+
+financials = ['BRK-B', 'BRK-A', 'V', 'JPM', 'MA', 'BAC', 'WFC', 'MS', 'SCHW', 'RY', 'SPGI', 'HSBC', 'TD', 'BX', 'AXP', 'GS', 'PYPL', 'HDB', 'BLK', 'C']
+
+materials = ['LIN', 'BHP', 'RIO', 'NTR', 'SHW', 'VALE', 'APD', 'ECL', 'CTVA', 'FCX', 'SCCO', 'NUE', 'DOW', 'ALB', 'NEM', 'FNV', 'PPG', 'IFF', 'SQM', 'DD']
+
+comms = ['GOOG', 'GOOGL', 'META', 'DIS', 'TMUS', 'VZ', 'CMCSA', 'T', 'NFLX', 'CHTR', 'ATVI', 'NTES', 'AMX', 'RELX', 'BIDU', 'BCE', 'EA', 'VOD', 'TWTR', 'TU']
+
+conscycl = ['AMZN', 'TSLA', 'HD', 'BABA', 'TM', 'MCD', 'NKE', 'LOW', 'SBUX', 'JD', 'PDD', 'TJX', 'ABNB', 'BKNG', 'F', 'GM', 'MAR', 'CMG', 'MELI', 'ORLY']
+
+consdef = ['WMT', 'PG', 'KO', 'PEP', 'COST', 'PM', 'UL', 'DEO', 'BTI', 'EL', 'BUD', 'MDLZ', 'MO', 'TGT', 'CL', 'DG', 'KDP', 'ADM', 'MNST', 'STZ']
+
+health = ['UNH', 'JNJ', 'LLY', 'PFE', 'ABBV', 'TMO', 'MRK', 'DHR', 'NVS', 'AZN', 'ABT', 'NVO', 'BMY', 'CVS', 'AMGN', 'ELV', 'MDT', 'SNY', 'CI', 'SYK']
+
+industrials = ['UPS', 'UNP', 'RTX', 'HON', 'LMT', 'DE', 'ADP', 'CAT', 'BA', 'CP', 'CNI', 'GE', 'NOC', 'WM', 'CSX', 'MMM', 'ITW', 'GD', 'NSC', 'ETN']
+
+realestate = ['AMT', 'PLD', 'CCI', 'PSA', 'EQIX', 'O', 'SBAC', 'WELL', 'DLR', 'SPG', 'VICI', 'CSGP', 'AVB', 'EQR', 'EXR', 'CBRE', 'ARE', 'WY', 'INVH', 'DRE']
+
+tech = ['AAPL', 'MSFT', 'TSM', 'NVDA', 'AVGO', 'ORCL', 'ASML', 'CSCO', 'ACN', 'ADBE', 'CRM', 'TXN', 'QCOM', 'AMD', 'INTC', 'INTU', 'IBM', 'SAP', 'SONY', 'NOW']
+
+utilities = ['NEE', 'SO', 'DUK', 'D', 'SRE', 'AEP', 'EXC', 'NGG', 'XEL', 'ED', 'PEG', 'WEC', 'PCGU', 'ES', 'PCG', 'AWK', 'FTS', 'BIP', 'EIX', 'FE']
+
+forex = ['EUR=X', 'JPY=X', 'GBP=X', 'AUD=X', 'CAD=X', 'CHF=X', 'CNY=X', 'HKD=X', 'NZD=X', 'SEK=X', 'KRW=X', 'SGD=X', 'NOK=X', 'MXN=X', 'INR=X', 'RUB=X', 'ZAR=X', 'TRY=X', 'BRL=X', 'TWD=X']
+
+assets = [etfs, gics, energy, financials, materials, comms, conscycl, consdef, health, industrials, realestate, tech, utilities, cryptos, forex]
