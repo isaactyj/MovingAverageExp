@@ -1,40 +1,26 @@
-Simple Moving Average with ATR and RSI
-This project implements a trading strategy using a combination of Simple Moving Average (SMA), Average True Range (ATR), and Relative Strength Index (RSI). The strategy generates buy and sell signals based on the crossover of short-term and long-term SMAs, ATR for stop-loss levels, and RSI for additional confirmation.
+# Simple Moving Average with ATR and RSI
+## This project implements a trading strategy using a combination of Simple Moving Average (SMA), Average True Range (ATR), and Relative Strength Index (RSI). The strategy generates buy and sell signals based on the crossover of short-term and long-term SMAs, ATR for stop-loss levels, and RSI for additional confirmation.
 
-Overview
+## Overview
 Moving Averages: The strategy uses short-term and long-term SMAs to identify trends in the price data.
 
 Average True Range (ATR): ATR is employed to calculate stop-loss levels dynamically based on the volatility of the market.
 
 Relative Strength Index (RSI): RSI is utilized to provide additional confirmation of overbought or oversold conditions in the market.
 
-Getting Started
-Prerequisites
-Python 3.x
-Required Python packages: pandas, ta (Technical Analysis Library)
-Installation
-Clone the repository:
+### Getting Started
+## Prerequisites
+- Python 3.x
+- `yfinance` library
+- `pandas` library
+- `matplotlib.pyplot` library
+- `numpy` library
 
-bash
-Copy code
-git clone https://github.com/your-username/simple-moving-average-atr-rsi.git
-Install the required Python packages:
+- Install the required libraries using:
 
-bash
-Copy code
-pip install -r requirements.txt
-Usage
-Navigate to the project directory:
-
-bash
-Copy code
-cd simple-moving-average-atr-rsi
-Run the main script:
-
-bash
-Copy code
-python main.py
-Explore the generated signals, charts, and performance metrics.
+```bash
+pip install yfinance pandas matplotlib numpy
+```
 
 Strategy Details
 Buy Signal: Generated when the short-term SMA crosses above the long-term SMA, and RSI is below the overbought level.
