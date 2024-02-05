@@ -1,5 +1,5 @@
 # Simple Moving Average with ATR and RSI
-## This project implements a trading strategy using a combination of Simple Moving Average (SMA), Average True Range (ATR), and Relative Strength Index (RSI). The strategy generates buy and sell signals based on the crossover of short-term and long-term SMAs, ATR for stop-loss levels, and RSI for additional confirmation.
+This project implements a trading strategy using a combination of Simple Moving Average (SMA), Average True Range (ATR), and Relative Strength Index (RSI). The strategy generates buy and sell signals based on the crossover of short-term and long-term SMAs, ATR for stop-loss levels, and RSI for additional confirmation.
 
 ## Overview
 Moving Averages: The strategy uses short-term and long-term SMAs to identify trends in the price data.
